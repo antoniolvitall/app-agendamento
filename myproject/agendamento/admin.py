@@ -1,3 +1,5 @@
+from agendamento.models import Consulta, Profissional
 from django.contrib import admin
 
-# Register your models here.
+admin.site.register(Profissional)
+admin.site.register(Consulta)
