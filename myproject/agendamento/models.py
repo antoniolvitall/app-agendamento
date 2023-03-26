@@ -1,7 +1,5 @@
 from django.db import models
 
-from .models import Profissional
-
 
 class Profissional(models.Model):
     nome = models.CharField(max_length=200)
